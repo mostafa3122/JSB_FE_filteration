@@ -3,9 +3,10 @@ import SectionTitle from '../components/ui/SectionTitle'
 
 export default function Contact() {
   return (
-    <div>
-      <SectionTitle/>
+    <section className=' flex flex-col items-center justify-center gap-12'>
+
+      <SectionTitle text={'Contact Us'}/>
       Contact
-    </div>
+    </section>
   )
 }

@@ -134,6 +134,8 @@ body {
   color: var(--color-text-grey);
   background-color: var(--color-secondary);
 }
+/* ******************************************************** */
+
 /* about section */
 .about-section {
   background-image: linear-gradient(
@@ -181,15 +183,15 @@ body {
   width: 100%;
 }
 
-
+/* ******************************************************** */
 .section {
   padding-top: 4rem;
   padding-bottom: 3rem;
 }
-.section-title {
+
+/* services section */
+.section-title p {
   font-weight: 900;
-  line-height: 89.5px;
-  text-align: center;
   color: var(--color-primary);
   margin-inline: auto;
   width: fit-content;
@@ -198,7 +200,8 @@ body {
 .section-title span {
   background-color: var(--color-primary-dark);
 }
-
+/* ******************************************************** */
+/* Testymonials section */
 .vertical-card {
   color: var(--color-text-primary);
 }
@@ -351,6 +354,7 @@ form button:hover {
         margin: auto;
     }
     /* about  */
+   
     .about-content .title {
       font-weight: 500;
       font-size: 30px;
@@ -365,6 +369,7 @@ form button:hover {
         line-height: 100%;
       }
 /* about  */
+
 .about-content .title {
     font-weight: 500;
     font-size: 40px;

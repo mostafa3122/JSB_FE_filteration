@@ -3,7 +3,7 @@ import ButtonComponent from '../components/ui/Button'
 import aboutImg from '../../public/images/aboutus.png'
 export default function About() {
   return (
-    <section className='about-section h-screen mx-auto flex flex-col items-center justify-center  gap-12 lg:gap-16 '>
+    <section className='about-section h-full mx-auto flex flex-col items-center justify-center  gap-12 lg:gap-16 '>
       <div className="about-clip ">
       </div>
       <div className="about-content container z-50  text-white mx-auto  flex flex-col lg:flex-row justify-center items-center md:gap-5 lg:gap-7 xl:gap-10 ">
