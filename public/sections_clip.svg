@@ -1,0 +1,11 @@
+<svg viewBox="0 0 1 1" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <clipPath
+                            id="custom-clip"
+                            clipPathUnits="objectBoundingBox"
+                            clipPathUnitss="userSpaceOnUse"
+                        >
+                            <path d="m.5561.9995s.0354.0028.0556-.0197c.0165-.0193.0359-.0655.0359-.0655l.352-.9143h-.9996v.9995h.5561" />
+                        </clipPath>
+                    </defs>
+                </svg>
