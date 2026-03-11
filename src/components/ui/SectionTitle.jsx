@@ -12,7 +12,7 @@ export default function SectionTitle({text}) {
       <span className=" borders absolute w-3 sm:w-4 lg:w-[46px] h-0.5 rotate-[-45deg] bottom-2 right-[-16px]  sm:right-[-20px] lg:right-[-25px] " />
 
       {/* TEXT */}
-      <span className="section-title-text text-center w-fit capitalize font-extrabold  text-3xl sm:text-4xl md:text-5xl lg:text-[64px] leading-tight lg:leading-[89.5px]" >
+      <span className="section-title-text " >
         {text}
       </span>
     </h2>

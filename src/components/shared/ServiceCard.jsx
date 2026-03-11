@@ -8,7 +8,7 @@ export default function ServiceCard({ img, title, desc }) {
         <h3 className="text-base mb-2.5 font-black tracking-tight  leading-6  dark:text-white">
           {title}
         </h3>
-        <p className="text-sm leading-5  ">
+        <p className="text-sm leading-5 card-desc  ">
           {desc}
         </p>
       </div>

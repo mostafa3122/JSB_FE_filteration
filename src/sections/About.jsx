@@ -17,7 +17,7 @@ export default function About() {
             <img src={aboutImg} alt="about image" className='w-full object-cover rounded-[20px]' />
           </div>
         </div>
-        <div className="flex flex-col z-50  gap-5 lg:gap-[30px] items-center  lg:items-end text-center text-right  lg:mt-14">
+        <div className="flex flex-col z-50  gap-5 lg:gap-[30px] items-center lg:items-end text-center text-right  lg:mt-14">
           <h3 className="  title ">Where</h3>
           <p className="font-normal lg:font-bold text-sm lg:text-lg max-w-[494px] ">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.

@@ -2,7 +2,7 @@
 @import "flowbite-react/plugin/tailwindcss";
 @source "../.flowbite-react/class-list.json";
 
-
+/* style */
 .section-title-text {
     @apply text-center w-fit capitalize font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-[64px] leading-tight lg:leading-[89.5px];
   }

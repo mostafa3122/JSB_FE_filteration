@@ -21,6 +21,15 @@ body {
   background-color: var(--color-bg-grey);
   font-family: "Poppins", sans-serif;
 }
+
+h2,
+h4 {
+  color: var(--color-primary);
+}
+.card-desc {
+  color: var(--color-text-primary-dark);
+}
+
 /* hero section */
 .hero-img {
   height: 100%;
@@ -101,41 +110,10 @@ body {
   color: var(--color-text-grey);
   line-height: 25.5px;
 }
-/* media query for  */
 
-.button {
-  text-transform: capitalize;
-  border-radius: 50px;
-  padding: 15px 60px;
-  font-weight: 600;
-  width: fit-content;
-  margin-inline: auto;
-  cursor: pointer;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  transition: all 0.3s ease-in-out;
-}
-
-.button:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.2);
-}
-.button:active {
-  transform: translateY(-3px);
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
-}
-
-.button-primary {
-  color: var(--color-text-white);
-  background-color: var(--color-primary-dark);
-}
-
-.button-secondary {
-  color: var(--color-text-grey);
-  background-color: var(--color-secondary);
-}
 /* ******************************************************** */
-
 /* about section */
+
 .about-section {
   background-image: linear-gradient(
       rgba(81, 128, 246, 0.5),
@@ -157,7 +135,7 @@ body {
   rotate: 180deg;
   position: absolute;
   right: 0;
-  top: -5px;
+  top: 0;
   z-index: 1;
 }
 
@@ -188,21 +166,30 @@ body {
   font-weight: 900;
   color: var(--color-primary);
   margin-inline: auto;
-
 }
-/* ******************************************************** */
-
-
-/* services section */
 
 .section-title .borders {
   background-color: var(--color-primary-dark);
 }
+
+/* ******************************************************** */
+/* services section */
 .services-card {
   color: var(--color-text-primary);
 }
 /* ******************************************************** */
+/* Testymonials section */
 
+.testy-border {
+  border-color: var(--color-primary);
+}
+
+/* ******************************************************** */
+
+/* contact us section */
+
+/* ******************************************************** */
+/* media query */
 @media screen and (max-width: 768px) {
   .hero-title {
     width: 100%;
@@ -246,6 +233,9 @@ body {
     font-size: 30px;
     line-height: 25px;
   }
+  .about-content .title{
+    margin-top:  30px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -261,7 +251,7 @@ body {
     line-height: 25px;
   }
 }
-
+/* ******************************************************** */
 /* footer section */
 footer {
   background-color: var(--color-footer-bg);
