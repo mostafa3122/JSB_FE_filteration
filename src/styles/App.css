@@ -101,8 +101,7 @@ body {
   color: var(--color-text-grey);
   line-height: 25.5px;
 }
-    /* media query for  */
-
+/* media query for  */
 
 .button {
   text-transform: capitalize;
@@ -170,7 +169,6 @@ body {
 }
 
 .about-content p {
-    /* font-weight: 700; */
   line-height: 24px;
 }
 .about-section-content .image-container {
@@ -184,21 +182,25 @@ body {
 }
 
 /* ******************************************************** */
-.section {
-  padding-top: 4rem;
-  padding-bottom: 3rem;
-}
+/* section title */
 
-/* services section */
-.section-title p {
+.section-title span {
   font-weight: 900;
   color: var(--color-primary);
   margin-inline: auto;
-  width: fit-content;
-}
 
-.section-title span {
+  /* background-color: red; */
+}
+/* ******************************************************** */
+
+
+/* services section */
+
+.section-title .borders {
   background-color: var(--color-primary-dark);
+}
+.services-card {
+  color: var(--color-text-primary);
 }
 /* ******************************************************** */
 /* Testymonials section */
@@ -318,59 +320,58 @@ form button:hover {
   color: var(--color-text-white);
 }
 @media screen and (max-width: 768px) {
-    .hero-title {
-      width: 100%;
-    }
-  
-    .hero-title .main-hero .title {
-      font-size: 25px;
-    }
-    .hero-container .main-hero .title p {
-      font-size: 10px;
-      line-height: 118%;
-      letter-spacing: 5px;
-    }
-    .hero-title .label {
-      font-size: 12px;
-    }
-    .text-hero {
-      font-size: 40px;
-      line-height: 100%;
-    }
-    .hero-desc {
-      width: 100%;
-      font-weight: 600;
-      font-size: 12px;
-      line-height: 100%;
-      margin-bottom: 10px;
-    }
-    .logo{
-      width: 55px;
-      height: 39px;
-    }
-  
-    .container{
-        width: 90%; 
-        margin: auto;
-    }
-    /* about  */
-   
-    .about-content .title {
-      font-weight: 500;
-      font-size: 30px;
-      line-height: 25px;
-    }
+  .hero-title {
+    width: 100%;
   }
 
+  .hero-title .main-hero .title {
+    font-size: 25px;
+  }
+  .hero-container .main-hero .title p {
+    font-size: 10px;
+    line-height: 118%;
+    letter-spacing: 5px;
+  }
+  .hero-title .label {
+    font-size: 12px;
+  }
+  .text-hero {
+    font-size: 40px;
+    line-height: 100%;
+  }
+  .hero-desc {
+    width: 100%;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    margin-bottom: 10px;
+  }
+  .logo {
+    width: 55px;
+    height: 39px;
+  }
+
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  /* about  */
+
+  .about-content .title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 25px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
+  .text-hero {
+    font-size: 60px;
+    line-height: 100%;
+  }
+  /* about  */
 
-    .text-hero {
-        font-size: 60px;
-        line-height: 100%;
-      }
-/* about  */
-
-.about-content .title {
+  .about-content .title {
     font-weight: 500;
     font-size: 40px;
     line-height: 25px;
