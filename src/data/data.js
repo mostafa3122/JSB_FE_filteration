@@ -1,52 +1,47 @@
-import services1 from "../../public/images/service-1.png";
-import services2 from "../../public/images/service-2.png";
-import services3 from "../../public/images/service-3.jpg";
-
-import testiProfile from "../../public/images/testimonial-1.png";
-export const services = [
+export const servicesCardData = [
   {
     id: 1,
-    img: services1,
+    img: "/images/service-1.png",
     title: "Lorem Ipsum",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
   },
   {
     id: 2,
-    img: services2,
+    img: "/images/service-2.png",
     title: "Lorem Ipsum",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
   },
   {
     id: 3,
-    img: services3,
+    img: "/images/service-3.jpg",
     title: "Lorem Ipsum",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
   },
 ];
 
-export const testiCardItem = [
+export const testimonialsCardData = [
   {
     id: 1,
-    img: testiProfile,
+    img: "/images/testimonial-1.png",
     title: "Courtney Henry",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
   },
   {
     id: 2,
-    img: testiProfile,
+    img: "/images/testimonial-1.png",
     title: "Courtney Henry",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
   },
   {
     id: 3,
-    img: testiProfile,
+    img: "/images/testimonial-1.png",
     title: "Courtney Henry",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
   },
   {
     id: 4,
-    img: testiProfile,
+    img: "/images/testimonial-1.png",
     title: "Courtney Henry",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
   },
 ];

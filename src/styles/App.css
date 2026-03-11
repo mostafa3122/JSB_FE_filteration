@@ -189,7 +189,6 @@ body {
   color: var(--color-primary);
   margin-inline: auto;
 
-  /* background-color: red; */
 }
 /* ******************************************************** */
 
@@ -203,122 +202,7 @@ body {
   color: var(--color-text-primary);
 }
 /* ******************************************************** */
-/* Testymonials section */
-.vertical-card {
-  color: var(--color-text-primary);
-}
-.stars-container {
-  display: flex;
-  gap: 5px;
-}
-.stars-container .star {
-  clip-path: url(/star_icon.svg#star-clip);
-  width: 15px;
-  height: 15px;
-  overflow: hidden;
-  position: relative;
-  background-color: var(--color-text-grey);
-}
-.star .fill-element {
-  background-color: var(--color-primary);
-  height: 110%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
 
-.stars-container .star.checked {
-  background-color: var(--color-primary);
-}
-
-.horizontal-card {
-  background-color: var(--color-bg-white);
-  border-color: var(--color-primary);
-  border-radius: 2.5rem;
-}
-
-.horizontal-card .testimonial-title {
-  color: var(--color-primary);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
-}
-
-.horizontal-card .testimonial-comment {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-  color: var(--color-text-primary-dark);
-}
-
-.contactus-section {
-  background-color: var(--color-bg-icewhite);
-}
-
-.contactus-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 2rem;
-}
-
-.contactus-info .info-element {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  font-family: "Abel";
-  font-weight: 500;
-  font-size: 18px;
-  text-decoration: none;
-  color: var(--color-text-grey-dark);
-}
-
-.contactus-info .icon {
-  background-color: var(--color-primary-dark);
-}
-
-.contactus-info .icon.envelope {
-  clip-path: url(/envelope.svg#envelope-clip);
-  width: 22.5px;
-  height: 18px;
-  overflow: hidden;
-  position: relative;
-}
-
-.contactus-info .icon.phone {
-  clip-path: url(/phone.svg#phone-clip);
-  width: 20px;
-  height: 20px;
-  overflow: hidden;
-  position: relative;
-}
-
-form {
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 100%;
-}
-
-form input {
-  background-color: var(--color-input-bg);
-}
-
-form input:active,
-form input:focus {
-  border-color: var(--color-primary-dark);
-  border-width: 3px;
-}
-
-form button {
-  border-color: var(--color-primary-dark);
-}
-
-form button:hover {
-  background-color: var(--color-primary-dark);
-  cursor: pointer;
-  color: var(--color-text-white);
-}
 @media screen and (max-width: 768px) {
   .hero-title {
     width: 100%;
@@ -377,19 +261,7 @@ form button:hover {
     line-height: 25px;
   }
 }
-@keyframes fade-in {
-  from {
-    opacity: 0;
-    transform: translateY(-4px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.animate-fade-in {
-  animation: fade-in 0.3s ease-out;
-}
+
 /* footer section */
 footer {
   background-color: var(--color-footer-bg);
