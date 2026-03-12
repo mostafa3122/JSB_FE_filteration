@@ -1,4 +1,4 @@
-import FooterApp from './components/FooterApp/FooterApp'
+import Footer from './components/Footer/Footer'
 import About from './sections/About'
 import Contact from './sections/Contact'
 import Hero from './sections/Hero'
@@ -16,8 +16,8 @@ function App() {
       <Services />
       <Testimonials />
       <Contact />
-      <FooterApp />
-      
+      <Footer />
+
     </>
   )
 }

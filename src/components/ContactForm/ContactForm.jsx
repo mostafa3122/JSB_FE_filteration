@@ -38,8 +38,7 @@ export default function ContactForm() {
             const data = await axios.post("http://upskilling-egypt.com:3001/contact", value, {
                 headers: {
                     "Content-Type": "application/json",
-                },
-                body: JSON.stringify(value),
+                }
             })
             // in succcess
             if (data.status === 200 || data.status === 201) {
