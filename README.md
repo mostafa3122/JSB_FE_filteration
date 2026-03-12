@@ -45,6 +45,7 @@ Round Rock is a modern React-based project built with Vite, styled with Tailwind
 
 ## 📦 Installation
 Follow these steps to run the project locally:
+```bash
 git clone https://github.com/mostafa3122/JSB_FE_filteration.git
 cd JSB_FE_filteration
 npm install
