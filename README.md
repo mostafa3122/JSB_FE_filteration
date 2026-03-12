@@ -4,12 +4,6 @@ Round Rock is a modern React-based project built with Vite, styled with Tailwind
 
 ---
 
-## ▶️ Demo
-### [Round-Rock]()
-
----
-
-
 ## 🚀 Features
 
 - React + Vite: Fast and modern frontend development.
@@ -58,4 +52,3 @@ cd JSB_FE_filteration
 npm install
 npm run dev
 
----
