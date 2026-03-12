@@ -8,8 +8,8 @@ export default function About() {
       </div>
       <div className="about-content container z-50  text-white mx-auto  flex flex-col lg:flex-row justify-center items-center md:gap-5 lg:gap-7 xl:gap-10 ">
         <div className="flex flex-col z-50 text-center items-center lg:items-start lg:text-left   lg:w-[583px] gap-4 lg:gap-[30px]   ">
-          <h3 className="    title ">About Us</h3>
-          <p className="font-medium  max-w-[538px]  lg:font-bold text-sm lg:text-lg  ">
+          <h3 className="  title ">About Us</h3>
+          <p className="font-medium leading-6  max-w-[538px]  lg:font-bold text-sm lg:text-lg  ">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
           </p>

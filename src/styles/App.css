@@ -146,15 +146,11 @@ h4 {
   text-shadow: 0px 5px 10px #00000030;
 }
 
-.about-content p {
-  line-height: 24px;
-}
 .about-section-content .image-container {
   width: 80%;
   overflow: hidden;
   border-radius: 20px;
 }
-
 .about-section-content .image-container img {
   width: 100%;
 }
@@ -167,27 +163,16 @@ h4 {
   color: var(--color-primary);
   margin-inline: auto;
 }
-
 .section-title .borders {
   background-color: var(--color-primary-dark);
 }
 
 /* ******************************************************** */
-/* services section */
-.services-card {
-  color: var(--color-text-primary);
-}
-/* ******************************************************** */
-/* Testymonials section */
-
-.testy-border {
-  border-color: var(--color-primary);
-}
-
-/* ******************************************************** */
 
 /* contact us section */
-
+.contact-text{
+  font-family: "Abel", sans-serif;
+}
 /* ******************************************************** */
 /* media query */
 @media screen and (max-width: 768px) {
@@ -244,7 +229,6 @@ h4 {
     line-height: 100%;
   }
   /* about  */
-
   .about-content .title {
     font-weight: 500;
     font-size: 40px;

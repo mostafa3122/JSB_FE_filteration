@@ -4,5 +4,15 @@
 
 /* style */
 .section-title-text {
-    @apply text-center w-fit capitalize font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-[64px] leading-tight lg:leading-[89.5px];
+  @apply text-center w-fit capitalize font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-[64px] leading-tight lg:leading-[89.5px];
+}
+
+@layer components {
+  .input-style {
+    @apply bg-[#CEDCFF] rounded-full pl-8 py-5   min-w-sm  outline-none
+          border-2 border-transparent
+          transition-all duration-300
+          /* focus:ring-4 focus:ring-blue-300/50 */
+          focus:border-[#5180f6];
   }
+}
